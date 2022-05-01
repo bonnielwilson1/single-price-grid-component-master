@@ -1,0 +1,27 @@
+/* font weight 400 and 700 */
+:root {
+--blue: hsl(179, 62%, 43%);
+--green: hsl(71, 73%, 54%);
+--light-gray: hsl(204, 43%, 93%);
+--dark-gray: hsl(218, 22%, 67%);
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    background:var(--light-gray) ;
+    line-height:1.5;
+}
+
+.container {
+    max-width: 1000px;
+    margin:100px auto;
+    padding: 10px;
+    border: 1px solid red;;
+}
+.items {
+    border: 1px solid blue;
+}
